@@ -1,0 +1,202 @@
+/*
+** SHARED
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+
+body{
+    overflow-x: hidden;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+.purple{
+    color: #761a4b;
+}
+
+.lightPurple{
+    color: #ff0081;
+}
+
+.drop_underline{
+    text-decoration: none;
+}
+.drop_underline:hover{
+    text-decoration: none;
+}
+
+/*
+** NAVBAR
+ */
+
+#logo{
+    width: 100%;
+}
+
+.navbar-brand{
+    width: 15% !important;
+}
+
+.active-link{
+    color: black !important;
+    border-radius: 5px;
+}
+
+/*
+** BOTTOM
+ */
+
+.bottom{
+}
+
+.bottom h1{
+    font-size: 1em;
+}
+
+.bottom h2{
+    font-size: 1em;
+}
+
+.icofont-small{
+    color: black;
+    padding: 1%;
+    font-size: 2.5em;
+}
+
+.icofont-small:hover{
+    text-decoration: black !important;
+    color: #ff0081;
+    text-decoration: underline;
+}
+
+/*
+** HOME
+ */
+
+.container-home{
+    border: 1px solid lightgray;
+    color: black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    padding: 2%;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.container-home:hover{
+    border-radius: 100px;
+    border-color: #a2a0a0;
+}
+
+.container-home button{
+    background-color: #ff0081;
+    color: white;
+    border: none;
+    padding: 1%;
+}
+
+.icofont{
+    text-align: center;
+    font-size: 5em;
+}
+
+.icons{
+    margin-top: 3%;
+}
+
+.container h1{
+    font-size: 1em;
+    margin-top: 15%;
+}
+
+.square{
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+    border-radius: 5px;
+}
+
+.square:hover{
+    color: #741849;
+}
+
+.icons-link{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.icons h1{
+    margin-top: 3%;
+    font-size: 1.2em;
+}
+
+.icons h2{
+    font-size: 1em;
+}
+
+
+/*
+** ABOUT
+ */
+
+.container-about{
+    margin: 5% auto;
+    text-align: center;
+    width: 52%;
+}
+
+.container-about h1{
+    font-size: 1.7em;
+}
+
+.container-about h2{
+    font-size: 1em;
+}
+
+.container-about h3{
+    font-size: 1em;
+}
+
+/*
+** CONTATO
+ */
+.container-contact{
+    margin: 1.5% auto;
+    width: 50%;
+    padding: 0 3%;
+}
+
+.container-contact h1{
+    font-size: 1.4em;
+}
+
+.custom-form, textarea{
+    color: black;
+    background-color: white;
+}
+
+.btn-send{
+    margin-left: 45%;
+}
+
+textarea{
+    border: lightgray 1px solid;
+    width: 100%;
+}
+
+.whatsapp {
+    text-align: center;
+}
+
+.whats-icon{
+    font-size: 3em;
+}
+
+.whatsapp h1{
+    font-size: 1em;
+}
+
+.whatsapp h2{
+    font-size: 1.5em;
+}
+
